@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserCell" id="KGk-i7-Jjw" customClass="UserCell" customModule="tbShareShipping" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyZ-4u-hJk">
+                        <rect key="frame" x="147" y="4" width="80" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Myh-46-KxM"/>
+                            <constraint firstAttribute="height" constant="40" id="bFE-mz-yhm"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <connections>
+                            <action selector="tappedAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Gp7-5H-uDf"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRJ-Wg-kMT">
+                        <rect key="frame" x="237" y="4" width="128" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="cr6-Yi-fKZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wAf-GX-aOn">
+                        <rect key="frame" x="10" y="5" width="127" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="lOq-Xn-fxQ"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AyZ-4u-hJk" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="1ZT-sf-e42"/>
+                    <constraint firstItem="wAf-GX-aOn" firstAttribute="baseline" secondItem="AyZ-4u-hJk" secondAttribute="baseline" id="Bgv-Cm-skL"/>
+                    <constraint firstAttribute="trailing" secondItem="JRJ-Wg-kMT" secondAttribute="trailing" constant="10" id="Nfd-40-6wx"/>
+                    <constraint firstItem="AyZ-4u-hJk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Wki-Yb-eIO"/>
+                    <constraint firstItem="AyZ-4u-hJk" firstAttribute="leading" secondItem="wAf-GX-aOn" secondAttribute="trailing" constant="10" id="dgf-I3-ZaC"/>
+                    <constraint firstItem="wAf-GX-aOn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="g1M-i3-teS"/>
+                    <constraint firstItem="JRJ-Wg-kMT" firstAttribute="centerY" secondItem="AyZ-4u-hJk" secondAttribute="centerY" id="pQn-5Q-TUj"/>
+                    <constraint firstItem="JRJ-Wg-kMT" firstAttribute="leading" secondItem="AyZ-4u-hJk" secondAttribute="trailing" constant="10" id="ygS-OI-xU4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameTextField" destination="wAf-GX-aOn" id="reI-oh-skh"/>
+                <outlet property="priceLabel" destination="JRJ-Wg-kMT" id="3sT-9K-vqu"/>
+                <outlet property="weightButton" destination="AyZ-4u-hJk" id="p6s-MZ-c2W"/>
+            </connections>
+            <point key="canvasLocation" x="44.5" y="56"/>
+        </tableViewCell>
+    </objects>
+</document>

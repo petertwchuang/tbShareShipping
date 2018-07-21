@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		D01846D82103271B0034E060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01846D72103271B0034E060 /* AppDelegate.swift */; };
 		D01846DA2103271B0034E060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01846D92103271B0034E060 /* ViewController.swift */; };
-		D01846DD2103271B0034E060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01846DB2103271B0034E060 /* Main.storyboard */; };
 		D01846E02103271B0034E060 /* tbShareShipping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D01846DE2103271B0034E060 /* tbShareShipping.xcdatamodeld */; };
 		D01846E22103271C0034E060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01846E12103271C0034E060 /* Assets.xcassets */; };
 		D01846E52103271C0034E060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01846E32103271C0034E060 /* LaunchScreen.storyboard */; };
 		D01846F02103271C0034E060 /* tbShareShippingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01846EF2103271C0034E060 /* tbShareShippingTests.swift */; };
 		D01846FB2103271C0034E060 /* tbShareShippingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01846FA2103271C0034E060 /* tbShareShippingUITests.swift */; };
+		D018470F210327850034E060 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0184708210327840034E060 /* User.swift */; };
+		D0184710210327850034E060 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0184709210327840034E060 /* UserViewController.swift */; };
+		D0184712210327850034E060 /* addUserFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D018470B210327850034E060 /* addUserFooterView.xib */; };
+		D0184713210327850034E060 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D018470C210327850034E060 /* UserCell.swift */; };
+		D0184714210327850034E060 /* addUserFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D018470D210327850034E060 /* addUserFooterView.swift */; };
+		D0184715210327850034E060 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D018470E210327850034E060 /* UserCell.xib */; };
+		D0184717210328780034E060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0184716210328780034E060 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		D01846D42103271B0034E060 /* tbShareShipping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tbShareShipping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01846D72103271B0034E060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D01846D92103271B0034E060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D01846DC2103271B0034E060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D01846DF2103271B0034E060 /* tbShareShipping.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tbShareShipping.xcdatamodel; sourceTree = "<group>"; };
 		D01846E12103271C0034E060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01846E42103271C0034E060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		D01846F62103271C0034E060 /* tbShareShippingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tbShareShippingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01846FA2103271C0034E060 /* tbShareShippingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tbShareShippingUITests.swift; sourceTree = "<group>"; };
 		D01846FC2103271C0034E060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0184708210327840034E060 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D0184709210327840034E060 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D018470B210327850034E060 /* addUserFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addUserFooterView.xib; sourceTree = "<group>"; };
+		D018470C210327850034E060 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		D018470D210327850034E060 /* addUserFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addUserFooterView.swift; sourceTree = "<group>"; };
+		D018470E210327850034E060 /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		D0184716210328780034E060 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +113,17 @@
 			children = (
 				D01846D72103271B0034E060 /* AppDelegate.swift */,
 				D01846D92103271B0034E060 /* ViewController.swift */,
-				D01846DB2103271B0034E060 /* Main.storyboard */,
+				D0184716210328780034E060 /* Main.storyboard */,
 				D01846E12103271C0034E060 /* Assets.xcassets */,
 				D01846E32103271C0034E060 /* LaunchScreen.storyboard */,
 				D01846E62103271C0034E060 /* Info.plist */,
 				D01846DE2103271B0034E060 /* tbShareShipping.xcdatamodeld */,
+				D018470D210327850034E060 /* addUserFooterView.swift */,
+				D018470B210327850034E060 /* addUserFooterView.xib */,
+				D0184708210327840034E060 /* User.swift */,
+				D018470C210327850034E060 /* UserCell.swift */,
+				D018470E210327850034E060 /* UserCell.xib */,
+				D0184709210327840034E060 /* UserViewController.swift */,
 			);
 			path = tbShareShipping;
 			sourceTree = "<group>";
@@ -232,9 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0184712210327850034E060 /* addUserFooterView.xib in Resources */,
 				D01846E52103271C0034E060 /* LaunchScreen.storyboard in Resources */,
 				D01846E22103271C0034E060 /* Assets.xcassets in Resources */,
-				D01846DD2103271B0034E060 /* Main.storyboard in Resources */,
+				D0184717210328780034E060 /* Main.storyboard in Resources */,
+				D0184715210327850034E060 /* UserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D018470F210327850034E060 /* User.swift in Sources */,
+				D0184710210327850034E060 /* UserViewController.swift in Sources */,
 				D01846DA2103271B0034E060 /* ViewController.swift in Sources */,
+				D0184714210327850034E060 /* addUserFooterView.swift in Sources */,
 				D01846E02103271B0034E060 /* tbShareShipping.xcdatamodeld in Sources */,
 				D01846D82103271B0034E060 /* AppDelegate.swift in Sources */,
+				D0184713210327850034E060 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D01846DB2103271B0034E060 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D01846DC2103271B0034E060 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D01846E32103271C0034E060 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V547CLJN8;
 				INFOPLIST_FILE = tbShareShipping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V547CLJN8;
 				INFOPLIST_FILE = tbShareShipping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
